@@ -25,7 +25,7 @@ button.addEventListener('click', function(e) {
 function createSquares (grid) {
     let i=1;
     let totalSquares=grid*grid;
-    let divWidth=(500-grid)/grid + 'px';//500px is size of sketchContainer. -grid for the border (2*0.5px*grid)
+    let divWidth=(500-2*grid)/grid + 'px';//500px is size of sketchContainer. -grid for the border (2*1px*grid)
     console.log(totalSquares);
     console.log(divWidth);
     while (i<=totalSquares) {
