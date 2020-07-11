@@ -1,0 +1,60 @@
+
+#mainContainer {
+    display: block;
+    text-align: center;
+
+    
+}
+
+#title {
+    color: red;
+}
+
+
+#buttonDiv{
+    display: block;
+    margin: 10px;
+}
+
+
+#sketchContainer {
+    display: inline-block;
+    border: solid red 5px;
+    width: 500px;
+    height: 500px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+
+}
+
+.squareDivs {
+    display: block;
+    float:left;
+    background-color: yellow;
+    border: solid black .5px;
+
+}
+
+#footer {
+    display: block; 
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: rgb(247, 125, 210);
+
+}
+
+a{
+    text-decoration: none;
+    color:rgb(247, 125, 210);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin:0;
+}
