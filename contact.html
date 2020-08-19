@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>My page</title>
+    </head>
+    <body>
+        <div id="leftnav">
+            <div id="leftmidcol">
+                <div id="leftcolumn" class="nav flex-column">
+                    <a class="link nav-link btn-secondary" href="index.html">Home</a>
+                    <a class="link nav-link btn-secondary" href="portfolio.html">Portfolio</a>
+                    <a class="link nav-link btn-secondary" href="about.html">About</a>
+                    <a class="link nav-link btn-secondary" href="contact.html">Contact</a>
+                </div> <!-- closing leftcol -->
+            </div> <!-- closing leftmidcol -->
+        </div> <!-- closing leftnav -->
+
+        <div id="maindiv">
+            <div id="titlediv">
+                <h1>Contact Information</h1>
+            </div> <!-- closing titlediv -->
+
+            <form id="formDiv">
+                <div id="comment">
+                    <div id="commentName" class="form-group">
+                        <div id="commentFName" class="commentNames">
+                            <label for="fname">First name:</label><br>
+                            <input type="text" class="form-control" id="fname" name="fname">
+                        </div>
+                        <div id="commentLName" class="commentNames">
+                            <label for="lname">Last name:</label><br>
+                            <input type="text" class="form-control" id="lname" name="lname">
+                        </div>
+                    </div>
+
+                    <div id="emailDiv" class="form-group">
+                        <label for="exampleInputEmail1">Email: </label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Text:</label>
+                        <select id="formSelection" class="form-control">
+                            <option>Question</option>
+                            <option>Comment</option>
+                            <option>Other</option>
+                        </select>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                    </div>
+
+                </div>
+
+                <button id="commentSubmit" type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+    <script>
+        let submit=document.getElementById("commentSubmit")
+        submit.onclick = function() {
+            document.getElementById("formDiv").innerHTML="Thank you! Your form has been submitted.";
+        }
+    </script>
+
+    </body>
+</html>
