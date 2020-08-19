@@ -1,0 +1,150 @@
+/* left navigation bar */
+#leftnav {
+    display: block;
+    position: fixed;
+    height: 100%;
+    background-color: #81D8D0;
+    width: 15%;
+    z-index: 999;
+
+}
+
+#leftmidcol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#leftcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40%;
+}
+
+.link{
+    color: #00CCCC;
+    font-weight: bold;
+}
+
+/* main container*/
+#maindiv {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    padding-left: 15%;
+    color: #00CCCC;
+}
+
+
+/* page title */
+#titlediv {
+    display: block;
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+
+/* homepage */
+#mainpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#intro {
+    margin-bottom: 1em;
+    font-size: 4em;
+}
+
+#aboutMe {
+    font-size: 2em;
+}
+
+/*img from pexel.com */
+#homepage {
+    /*
+    background-image: url(https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    opacity: 0.75;
+    */
+    background-image: linear-gradient(-30deg, orange, purple);
+}
+
+/* project containers */
+#projectdiv{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projects {
+    flex: 1 1 20vw;
+    margin-bottom: 10vw;
+    border: .5em solid grey;
+    border-radius: 2vw;
+    padding: 2vw;
+    margin: 2vw 4vw;
+    background-color: grey;
+}
+
+.projectTitle {
+    margin: 1vw 0vw;
+}
+
+.projectTag {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* hobbies page */
+#carousel {
+    background-color: grey;
+}
+
+/* contacts page */
+#comment {
+    margin: auto;
+    width: 50%;
+    text-align: left;
+    padding-top: 5em;
+}
+
+#commentName {
+    display: flex;
+    justify-content: space-between;
+}
+
+#commentSubmit {
+    margin-top: 3em;
+}
+
+#formSelection {
+    margin-bottom: 1em;
+}
+
+.commentNames {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+body {
+    text-align: center;
+    background-color: cream;
+    height: 100vh;
+    width: 100vw;
+}
+
+html {
+    box-sizing: border-box;
+}
